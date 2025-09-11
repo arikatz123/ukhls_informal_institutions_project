@@ -1,0 +1,15 @@
+# Raw data (keep huge files out of git)
+data/
+*.dta
+*.csv
+*.parquet
+
+# Outputs & caches
+outputs/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+# Virtual env
+.venv/
+
